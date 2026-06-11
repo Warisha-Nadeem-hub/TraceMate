@@ -1,0 +1,33 @@
+name: tracemate
+description: "TraceMate - Convert images into sketches and tracing templates"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Image handling
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  
+  # Image processing
+  image: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
